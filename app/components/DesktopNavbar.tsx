@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { RiArrowDropDownLine } from 'react-icons/ri';
 
-const Header = () => {
+const DesktopNavbar = () => {
   return (
     <header className="w-[1440px] h-[852px] mx-auto bg-[#FAFAFA] text-white font-montserrat">
       {/* Top Bar */}
@@ -185,10 +185,6 @@ const Header = () => {
               </div>
 
 
-
-
-
-
             </div>
           </div>
         </div>
@@ -203,18 +199,8 @@ const Header = () => {
       </div>
 
 
-      <div className='w-[1440px] h-[770px] bg-[#FAFAFA]'>
-
-      <div className="mx-auto w-[1050px] h-[770px] left-[195px] py-[80px] gap-[48px] bg-gray-200">
-         
-</div>
-
-
-      </div>
-
-
     </header>
   );
 };
 
-export default Header;
+export default DesktopNavbar;

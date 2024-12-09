@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-
-import Header from "./components/Header";
+import DesktopNavbar from "./components/DesktopNavbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,7 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="mx-auto W-[1440px] h-[6197px] top-[-12664px] left-[-2570px]">
-          <Header />
+          <DesktopNavbar />
         {children}
         </div>
       </body>
