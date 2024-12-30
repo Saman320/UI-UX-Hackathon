@@ -5,7 +5,7 @@ const homePage = [
   {
     id: 1,
     priceStrikeThrough: 5.38,
-    image: "/card1.png",
+    image: "/images/card1.png",
     title: "Graphic Design",
     description: "English Department",
     price: 7.54
@@ -13,7 +13,7 @@ const homePage = [
   {
     id: 2,
     priceStrikeThrough: 5.38,
-    image: "/card2.png",
+    image: "/images/card2.png",
     title: "Graphic Design",
     description: "English Department",
     price: 7.54
@@ -21,7 +21,7 @@ const homePage = [
   {
     id: 3,
     priceStrikeThrough: 5.38,
-    image: "/card4.png",
+    image: "/images/card4.png",
     title: "Graphic Design",
     description: "English Department",
     price: 7.54
@@ -29,7 +29,7 @@ const homePage = [
   {
     id: 4,
     priceStrikeThrough: 5.38,
-    image: "/card3.png",
+    image: "/images/card3.png",
     title: "Graphic Design",
     description: "English Department",
     price: 7.54
@@ -37,7 +37,7 @@ const homePage = [
   {
     id: 5,
     priceStrikeThrough: 5.38,
-    image: "/card5.png",
+    image: "/images/card5.png",
     title: "Graphic Design",
     description: "English Department",
     price: 7.54
@@ -45,7 +45,7 @@ const homePage = [
   {
     id: 6,
     priceStrikeThrough: 5.38,
-    image: "/card6.png",
+    image: "/images/card6.png",
     title: "Graphic Design",
     description: "English Department",
     price: 7.54
@@ -53,7 +53,7 @@ const homePage = [
   {
     id: 7,
     priceStrikeThrough: 5.38,
-    image: "/card7.png",
+    image: "/images/card7.png",
     title: "Graphic Design",
     description: "English Department",
     price: 7.54
@@ -61,7 +61,7 @@ const homePage = [
   {
     id: 8,
     priceStrikeThrough: 5.38,
-    image: "/card8.png",
+    image: "/images/card8.png",
     title: "Graphic Design",
     description: "English Department",
     price: 7.54
@@ -69,7 +69,7 @@ const homePage = [
   {
     id: 9,
     priceStrikeThrough: 5.38,
-    image: "/card9.png",
+    image: "/images/card9.png",
     title: "Graphic Design",
     description: "English Department",
     price: 7.54
@@ -77,7 +77,7 @@ const homePage = [
   {
     id: 10,
     priceStrikeThrough: 5.38,
-    image: "/card10.png",
+    image: "/images/card10.png",
     title: "Graphic Design",
     description: "English Department",
     price: 7.54
@@ -85,7 +85,7 @@ const homePage = [
   {
     id: 11,
     priceStrikeThrough: 5.38,
-    image: "/card11.png",
+    image: "/images/card11.png",
     title: "Graphic Design",
     description: "English Department",
     price: 7.54
@@ -93,7 +93,7 @@ const homePage = [
   {
     id: 12,
     priceStrikeThrough: 5.38,
-    image: "/card12.png",
+    image: "/images/card12.png",
     title: "Graphic Design",
     description: "English Department",
     price: 7.54
