@@ -148,7 +148,7 @@ function Shop() {
         <div className="grid grid-cols md:grid-cols-5 gap-4">
           <div>
             <Image
-              src={"/shopimg1.png"}
+              src={"/images/shopimg1.png"}
               alt="shop 1"
               width={206}
               height={223}
@@ -156,7 +156,7 @@ function Shop() {
           </div>
           <div>
             <Image
-              src={"/shop-img2.png"}
+              src={"/images/shop-img2.png"}
               alt="shop 2"
               width={206}
               height={223}
@@ -165,7 +165,7 @@ function Shop() {
 
           <div className="">
             <Image
-              src={"/shop-img3.png"}
+              src={"/images/shop-img3.png"}
               alt="shop 3"
               width={206}
               height={223}
@@ -173,7 +173,7 @@ function Shop() {
           </div>
           <div className="">
             <Image
-              src={"/shop-img4.png"}
+              src={"/images/shop-img4.png"}
               alt="shop 4"
               width={206}
               height={223}
@@ -181,7 +181,7 @@ function Shop() {
           </div>
           <div className="">
             <Image
-              src={"/shop-img5.png"}
+              src={"/images/shop-img5.png"}
               alt="shop 5"
               width={206}
               height={223}
@@ -196,14 +196,14 @@ function Shop() {
         <div className="flex gap-5 items-center">
           <p>View:</p>
           <Image
-            src={"/vector2.png"}
+            src={"/images/vector2.png"}
             alt="vector"
             width={40}
             height={40}
           />
 
           <Image
-            src={"/vector1.png"}
+            src={"/images/vector1.png"}
             alt="vector"
             width={40}
             height={40}
@@ -226,7 +226,7 @@ function Shop() {
         {["logo1.png", "logo2.png", "logo3.png", "logo4.png", "logo5.png", "logo6.png"].map((logo, index) => (
           <div key={index} className="flex justify-center items-center">
             <Image
-              src={`/${logo}`}
+              src={`/images/${logo}`}
               alt={`Logo ${index + 1}`}
               width={180}
               height={130}

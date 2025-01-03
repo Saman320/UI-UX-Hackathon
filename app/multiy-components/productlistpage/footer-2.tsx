@@ -106,7 +106,7 @@ export default function Footer() {
 
       </div>
       {/* Bottom Section */}
-      <div className="py-6 md:mx-auto px-2  md:px-20 lg:px-24 bg-[#FAFAFA] flex items-center justify-start">
+      <div className="py-6 md:mx-auto px-2  md:px-20 lg:px-24 bg-[#FAFAFA] flex items-center justify-center">
         <div className="flex items-center text-center text-Text1 gap-1 text-sm ">
           <p>Made With Love By Finland All Right Reserved </p>
         </div>
