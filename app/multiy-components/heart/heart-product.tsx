@@ -20,7 +20,7 @@ import {
     {
       id: 1,
       priceStrikeThrough: 16.48,
-      image: "/product1.png",
+      image: "/images/product1.png",
       title: "Graphic Design",
       description: "English Department",
       price: 6.48,
@@ -28,7 +28,7 @@ import {
     {
       id: 2,
       priceStrikeThrough: 16.48,
-      image: "/product2.png",
+      image: "/images/product2.png",
       title: "Graphic Design",
       description: "English Department",
       price: 6.48,
@@ -36,7 +36,7 @@ import {
     {
       id: 3,
       priceStrikeThrough: 16.48,
-      image: "/product3.png",
+      image: "/images/product3.png",
       title: "Graphic Design",
       description: "English Department",
       price: 6.48,
@@ -44,7 +44,7 @@ import {
     {
       id: 4,
       priceStrikeThrough: 16.48,
-      image: "/product4.png",
+      image: "/images/product4.png",
       title: "Graphic Design",
       description: "English Department",
       price: 6.48,
@@ -52,7 +52,7 @@ import {
     {
       id: 5,
       priceStrikeThrough: 16.48,
-      image: "/product5.png",
+      image: "/images/product5.png",
       title: "Graphic Design",
       description: "English Department",
       price: 6.48,
@@ -60,7 +60,7 @@ import {
     {
       id: 6,
       priceStrikeThrough: 16.48,
-      image: "/product6.png",
+      image: "/images/product6.png",
       title: "Graphic Design",
       description: "English Department",
       price: 6.48,
@@ -68,7 +68,7 @@ import {
     {
       id: 7,
       priceStrikeThrough: 16.48,
-      image: "/product1.png",
+      image: "/images/product1.png",
       title: "Graphic Design",
       description: "English Department",
       price: 6.48,
@@ -76,7 +76,7 @@ import {
     {
       id: 8,
       priceStrikeThrough: 16.48,
-      image: "/product2.png",
+      image: "/images/product2.png",
       title: "Graphic Design",
       description: "English Department",
       price: 6.48,
@@ -105,7 +105,7 @@ import {
             <div className="md:w-1/2 w-full flex flex-col gap-3 items-center md:justify-start">
               <div>
                 <Image
-                  src={"/carousel1.png"}
+                  src={"/images/carousel1.png"}
                   alt="detail"
                   width={504}
                   height={450}
@@ -113,13 +113,13 @@ import {
               </div>
               <div className="flex gap-3 justify-start">
                 <Image
-                  src={"/carousel2.png"}
+                  src={"/images/carousel2.png"}
                   alt="detail"
                   width={100}
                   height={75}
                 />
                 <Image
-                  src={"/carousel1.png"}
+                  src={"/images/carousel1.png"}
                   alt="detail"
                   width={100}
                   height={75}
@@ -177,7 +177,7 @@ import {
         <div className="grid grid-cols-1  md:grid-cols-3 gap-4 p-3 md:p-6">
           <div className=" flex items-center justify-center">
             <Image
-              src={"/price1.png"}
+              src={"/images/price1.png"}
               alt="image 1"
               width={332}
               height={392}
@@ -275,7 +275,7 @@ import {
         <div className="grid grid-cols-1 md:grid-cols-6 gap-20 md:gap-3 lg:gap-4 bg-[#FAFAFA] px-9 justify-items-center items-center py-6">
           <div>
             <Image
-              src={"/logo1.png"}
+              src={"/images/logo1.png"}
               alt="logo 1"
               height={100}
               width={180}
@@ -283,7 +283,7 @@ import {
           </div>
           <div>
             <Image
-              src={"/logo2.png"}
+              src={"/images/logo2.png"}
               alt="logo 1"
               height={100}
               width={180}
@@ -291,7 +291,7 @@ import {
           </div>
           <div>
             <Image
-              src={"/logo3.png"}
+              src={"/images/logo3.png"}
               alt="logo 1"
               height={100}
               width={180}
@@ -299,7 +299,7 @@ import {
           </div>
           <div>
             <Image
-              src={"/logo4.png"}
+              src={"/images/logo4.png"}
               alt="logo 1"
               height={100}
               width={180}
@@ -307,7 +307,7 @@ import {
           </div>
           <div>
             <Image
-              src={"/logo5.png"}
+              src={"/images/logo5.png"}
               alt="logo 1"
               height={100}
               width={180}
@@ -315,7 +315,7 @@ import {
           </div>
           <div>
             <Image
-              src={"/logo6.png"}
+              src={"/images/logo6.png"}
               alt="logo 1"
               height={100}
               width={180}

@@ -38,7 +38,7 @@ export default function Header_2() {
                                 </Link>
                             </li>
                             <li>
-                                <Link href={"/pricing"} className="hover:text-blue-500">
+                                <Link href={"/price"} className="hover:text-blue-500">
                                     Pricing
                                 </Link>
                             </li>

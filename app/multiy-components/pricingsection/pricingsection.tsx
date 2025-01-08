@@ -49,7 +49,7 @@ export default function Pricing_Section() {
                             {["logo1.png", "logo2.png", "logo3.png", "logo4.png", "logo5.png", "logo6.png"].map((logo, index) => (
                                 <div key={index} className="flex justify-center items-center">
                                     <Image
-                                        src={`/${logo}`}
+                                        src={`/images/${logo}`}
                                         alt={`Logo ${index + 1}`}
                                         width={180}
                                         height={130}
