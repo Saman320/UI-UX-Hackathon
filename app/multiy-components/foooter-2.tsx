@@ -4,8 +4,8 @@ import { FaFacebook,FaInstagram,FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="font-sans font-semibold ">
-      <div className="w-full pt-3 px-4 space-y-8 md:px-11 ">
+    <footer className="font-sans font-semibold">
+      <div className="max-w-[1440px] w-full pt-3 px-4 space-y-8 md:px-11 ">
         <div className="mx-auto max-w-[1170px] w-full ">
           <div className="flex gap-3 justify-between items-center mb-5 py-6 border-b border-gray-300">
             <div className="font-bold text-2xl">
@@ -106,8 +106,8 @@ export default function Footer() {
 
       </div>
       {/* Bottom Section */}
-      <div className="py-6 md:mx-auto px-2  md:px-20 lg:px-24 bg-[#FAFAFA] flex items-center justify-center">
-        <div className="flex items-center text-center text-Text1 gap-1 text-sm ">
+      <div className="py-6 md:mx-auto px-2  md:px-20 lg:px-24 bg-[#FAFAFA] flex items-center justify-start">
+        <div className="flex items-center mx-auto text-center text-Text1 gap-1 text-sm ">
           <p>Made With Love By Finland All Right Reserved </p>
         </div>
       </div>

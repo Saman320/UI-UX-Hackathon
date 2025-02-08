@@ -51,7 +51,7 @@ export default function Green_Header() {
             <p>Follow Us : </p>
           <li >
             <Link
-              href="https://www.instagram.com/mr_hammad.abbasi/"
+              href="https://www.instagram.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -61,7 +61,7 @@ export default function Green_Header() {
 
           <li className=''>
             <Link
-              href="https://www.linkedin.com/in/hammad-abbasi-95388628b/"
+              href="https://www.linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -71,7 +71,7 @@ export default function Green_Header() {
 
           <li >
             <Link
-              href="https://www.facebook.com/profile.php?id=100068906216007"
+              href="https://www.facebook.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -81,7 +81,7 @@ export default function Green_Header() {
 
            <li >
             <Link
-              href="https://www.facebook.com/profile.php?id=100068906216007"
+              href="https://www.facebook.com"
               target="_blank"
               rel="noopener noreferrer"
             >

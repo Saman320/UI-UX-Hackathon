@@ -59,7 +59,7 @@ export default function Editers() {
             />
             {/* Button over the image */}
             <button className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white text-[#404650] font-semibold py-2 px-6">
-              Kids
+              Kides
             </button>
           </div>
         </div>

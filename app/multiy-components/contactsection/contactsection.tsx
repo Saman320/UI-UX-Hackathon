@@ -29,7 +29,7 @@ export default function Contact_Section() {
                 <div className='bg-[#ffb1b1] rounded-full'>
                     <p className='bg-[#ffb1b1] rounded-full w-4 h-4'></p>
                     <p className='bg-[#ffb1b1] rounded-full w-8 h-8 m-2'></p>
-                    <Image src={"/images/contactimg.png"} height={400} width={500} alt='contact-img' />
+                    <Image src={"/images/contacting.png"} height={400} width={500} alt='contact-img' />
                 </div>
             </div>
 

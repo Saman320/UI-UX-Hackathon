@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Footer from "./multiy-components/productlistpage/footer-2";
+import Footer from "./multiy-components/foooter-2";
+import Providers from "./providers";
+import {
+  ClerkProvider,
+} from '@clerk/nextjs'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -15,7 +19,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Hackathon2",
+  title: "Hackathon 3",
   description: "",
 };
 
@@ -25,14 +29,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <ClerkProvider>
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
        
+       <Providers>
         {children}
         <Footer />
+        </Providers>
       </body>
     </html>
+    </ClerkProvider>
   );
 }
+

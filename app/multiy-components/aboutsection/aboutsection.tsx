@@ -2,10 +2,12 @@ import { Button } from '@/app/components/ui/button'
 import Image from 'next/image'
 import React from 'react'
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa'
+import Top_Head from '../headers/top-header'
 
 export default function About_Section() {
   return (
     <main>
+       <Top_Head/>
       <div className='flex flex-col justify-center items-center font-sans font-semibold my-6'>
 
 
